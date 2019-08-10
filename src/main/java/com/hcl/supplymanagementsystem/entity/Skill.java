@@ -6,8 +6,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -15,7 +13,7 @@ import lombok.Setter;
 @Entity
 @Setter
 @Getter
-public class ASkill implements Serializable {
+public class Skill implements Serializable {
 
 	
 	private static final long serialVersionUID = 1L;
@@ -24,7 +22,7 @@ public class ASkill implements Serializable {
 	private Long skillId;
 	
 	private String skillName;
-	private String group;
+//	private String group;
 
 //	@OneToOne
 //	@JoinColumn(name = "skill_group")

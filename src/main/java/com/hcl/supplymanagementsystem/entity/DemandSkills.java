@@ -32,6 +32,6 @@ public class DemandSkills implements Serializable {
 
 	@ManyToOne
 	@JoinColumn(name = "skill_id")
-	private ASkill skill;
+	private Skill skill;
 
 }

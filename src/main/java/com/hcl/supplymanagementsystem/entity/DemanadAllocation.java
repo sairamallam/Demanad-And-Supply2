@@ -2,7 +2,6 @@ package com.hcl.supplymanagementsystem.entity;
 
 import java.io.Serializable;
 
-import javax.management.relation.Role;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
